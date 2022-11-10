@@ -23,8 +23,6 @@ defmodule PopejoyWeb.Router do
   # Other scopes may use custom stacks.
   scope "/api", PopejoyWeb do
     pipe_through :api
-
-    resources "/users", UserController, except: [:new, :edit]
   end
 
   # Enables LiveDashboard only for development

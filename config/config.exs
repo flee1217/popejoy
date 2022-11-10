@@ -15,7 +15,7 @@ config :popejoy, PopejoyWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [view: PopejoyWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Popejoy.PubSub,
-  live_view: [signing_salt: "1X6JuT2J"]
+  live_view: [signing_salt: "7R1Jxlwp"]
 
 # Configures the mailer
 #

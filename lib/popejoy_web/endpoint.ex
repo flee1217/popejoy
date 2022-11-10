@@ -7,7 +7,7 @@ defmodule PopejoyWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_popejoy_key",
-    signing_salt: "85fmjuEI"
+    signing_salt: "mRcD912z"
   ]
 
   socket "/live", Phoenix.LiveView.Socket, websocket: [connect_info: [session: @session_options]]

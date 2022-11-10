@@ -17,7 +17,7 @@ config :popejoy, Popejoy.Repo,
 # you can enable the server option below.
 config :popejoy, PopejoyWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "Z9aN1WYoI7+Hhxs2XKWMHTzji/hsyMgAWFzmO9svFGbjfg2r+4oPw85sNq0tu07w",
+  secret_key_base: "foVaqB7K+MtzV3k9oVMxsLoRfcgxbMKIoyvhtuE4/YgSZs2qoyEfkmknJXCGlNVO",
   server: false
 
 # In test we don't send emails.
