@@ -1,19 +1,13 @@
 # Popejoy
 
-To start your Phoenix server:
+Seating up to 1985 patrons, Popejoy Hall is the largest such venue in New Mexixo. Following a major renovation in 1996 and seating replacement in summer 2007, Popejoy hosts touring Broadway shows, symphony concerts, musical soloists and artists of international caliber, world-renowned ballet and modern dance companies, and noted speakers from a broad spectrum of disciplines.
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+This project seeks to implement a backend system for ticket purchases at Popejoy.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+Current goals
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+- [ ] create user accounts schema and authentication
+  - [x] create user accounts table
+    - [x] define initial users schema
+  - [ ] implement some user authentication
+  - [ ] figure out how to handle admin users
