@@ -10,4 +10,12 @@ Current goals
   - [x] create user accounts table
     - [x] define initial users schema
   - [ ] implement some user authentication
+    - [x] set up user registration (html view, create action)
+    - [ ] implement sessions management
   - [ ] figure out how to handle admin users
+
+# To run
+
+This repo contains a docker-compose.yml containing
+* Elixir 1.13
+* Phoenix 1.6
