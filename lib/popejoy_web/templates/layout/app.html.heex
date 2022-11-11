@@ -1,8 +1,11 @@
 <header class="header">
   <nav role="navigation">
-    <ul class="nav nav-pills pull-right">
+    <ul class="nav nav-pills ">
       <li>
         <%= link "Register", to: Routes.user_path(@conn, :new) %>
+      </li>
+      <li>
+        <%= link "Sign In", to: Routes.session_path(@conn, :new) %>
       </li>
     </ul>
   </nav>
