@@ -12,6 +12,8 @@ Current goals
   - [ ] implement some user authentication
     - [x] set up user registration (html view, create action)
     - [ ] implement sessions management
+  - [ ] sessions can persist for authenticated users
+    - [ ] use `guardian` for token-based sessions management
   - [ ] figure out how to handle admin users
 
 # To run
